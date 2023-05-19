@@ -97,6 +97,8 @@ canvas{
 
 .contact{
   background-color: #f0f0f0;
+  position: relative;
+  margin: 0 auto;
 }
 
 #checkPassword {
@@ -136,3 +138,11 @@ canvas{
 #checkPassword:checked + .togglePassword > .showText {
   display: inline-block;
 }
+
+/* 追記文 */
+
+header, nav {
+  text-align: center;
+  z-index: 1;
+}
+

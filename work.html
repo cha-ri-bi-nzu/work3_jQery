@@ -12,52 +12,53 @@
         <title>お問い合わせフォーム</title>
     </head>
     <body>
-        
+        <div class="count-particles">
+            <span class="js-count-particles">--</span> particles
+        </div>
+        <!-- particles.js container -->
+        <div id="particles-js">
         <header>
             <h1>ホームリンク</h1>
         </header>
         <nav>
             <h1>各メニューリンク</h1>
         </nav>
-        <article>
-            <table class="contact">
-                <tr>
-                    <th>Name</th>
-                    <td><input type="text" placeholder="例）山田  太郎"></td>
-                </tr>
-                <tr>
-                    <th>e-mail</th>
-                    <td><input type="text" placeholder="例）aaaaaa@e-mail.co.jp"></td>
-                </tr>
-                <tr>
-                    <th>password</th>
-                    <td>
-                        <input type="checkbox" id="checkPassword">
-                        <div class="togglePassword">
-                            <input type="password" class="hideText">
-                            <input type="text" class="showText">
-                            <label for="checkPassword" class="fa fa-eye"></label>
-                            <label for="checkPassword" class="fa fa-eye-slash"></label></td>
-                        </tr>
-                        <tr>
-                            <th>Inquiry Detail</th>
-                            <td><textarea type="text" placeholder=" 質問内容をお書きください。"></textarea></td>
-                        </tr>
-                    </table>
-                </article>
-                <script src="https://code.jquery.com/jquery-3.2.1.min.js" >
-                </script>
-    <div class="count-particles">
-        <span class="js-count-particles">--</span> particles
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" >
+        </script>
+    
+    <article>
+        <table class="contact">
+            <tr>
+                <th>Name</th>
+                <td><input type="text" placeholder="例）山田  太郎"></td>
+            </tr>
+            <tr>
+                <th>e-mail</th>
+                <td><input type="text" placeholder="例）aaaaaa@e-mail.co.jp"></td>
+            </tr>
+            <tr>
+                <th>password</th>
+                <td>
+                    <input type="checkbox" id="checkPassword">
+                    <div class="togglePassword">
+                        <input type="password" class="hideText">
+                        <input type="text" class="showText">
+                        <label for="checkPassword" class="fa fa-eye"></label>
+                        <label for="checkPassword" class="fa fa-eye-slash"></label></td>
+                    </tr>
+                    <tr>
+                        <th>Inquiry Detail</th>
+                        <td><textarea type="text" placeholder=" 質問内容をお書きください。"></textarea></td>
+                    </tr>
+                </table>
+            </article>
     </div>
-                <!-- particles.js container -->
-                <div id="particles-js"></div>
-                
-                <!-- scripts -->
-                <script src="particles.js"></script>
-                <script src="app.js"></script>
-                
-                <!-- stats.js -->
+    
+    <!-- scripts -->
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    
+    <!-- stats.js -->
                 <script src="stats.js"></script>
                 <script>
                     var count_particles, stats, update;
